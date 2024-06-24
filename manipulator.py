@@ -24,7 +24,7 @@ def main():
         if 'e' in mode :print("=== encrypting mode ===")
         else: print("=== decrypting mode ===")
         path = input('Please enter the path to encrypt/decrypt!\n-->')
-        key = int(input('Please enter letter key to encrypt/decrypt!\n-->'))
+        key = int(input('Please enter key to encrypt/decrypt!\n-->'))
 
     if 'e' in mode:
         print(encrypt_decrypt.encrypt_decrypt(path, key))
